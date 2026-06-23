@@ -11,7 +11,7 @@ class Gaia < Formula
   on_macos do
     on_intel do
       url "https://github.com/stewartbrothers/gaia/releases/download/v0.7.0/gaia_v0.7.0_darwin_x86_64.tar.gz"
-      sha256 "5fa4e704f4d3080b6cd917af2c033e2d70ff502403e9053c4479abb1e8395eef"
+      sha256 "1d2c832f022bae3e72f63ba430f7e7fd7af1d56ef3e391918bd5fee2fa920db8"
 
       def install
         bin.install "gaia"
@@ -20,7 +20,7 @@ class Gaia < Formula
     end
     on_arm do
       url "https://github.com/stewartbrothers/gaia/releases/download/v0.7.0/gaia_v0.7.0_darwin_arm64.tar.gz"
-      sha256 "0c4f9d15b003f37208f0175a3aa43970d83dd1277f6dae274bf505ef1832dbf5"
+      sha256 "4d628fd39917c765e963c6955310fb65d983c63fe90b9a3223b3c9210cae5117"
 
       def install
         bin.install "gaia"
@@ -33,7 +33,7 @@ class Gaia < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/stewartbrothers/gaia/releases/download/v0.7.0/gaia_v0.7.0_linux_x86_64.tar.gz"
-        sha256 "a5fa381340c598f21a5ac63102f61eb386f0eea2645a232b8a84ded8668330ce"
+        sha256 "c054822ad66f6d46c0f07f7d3d20b8e15a93e620c3dbd18fac66e0e761d2dcf8"
 
         def install
           bin.install "gaia"
@@ -44,7 +44,7 @@ class Gaia < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/stewartbrothers/gaia/releases/download/v0.7.0/gaia_v0.7.0_linux_arm64.tar.gz"
-        sha256 "f4b88688b8b5cdb06814737e7c9aed25808a36f82cc47509e2ee190e32d7bd52"
+        sha256 "1f81ee8e826221d53d858e1d11df320d6e2e5e38e934c4accfe9913808cec82b"
 
         def install
           bin.install "gaia"
