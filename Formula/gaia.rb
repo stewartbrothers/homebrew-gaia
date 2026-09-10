@@ -5,13 +5,13 @@
 class Gaia < Formula
   desc "Token-trimmed CLI + MCP server for Forgejo and GitHub"
   homepage "https://github.com/stewartbrothers/gaia"
-  version "0.8.0"
+  version "0.8.1"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.0/gaia_v0.8.0_darwin_x86_64.tar.gz"
-      sha256 "5347d4e834708d66ae29b8cdfbae4c708ddbae105e564d84ef0ad1d6c1d42561"
+      url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.1/gaia_v0.8.1_darwin_x86_64.tar.gz"
+      sha256 "bbe4967896b40a1f3fed0601b4451435b09e0ca89f77c792ded3b3c9bed87d00"
 
       def install
         bin.install "gaia"
@@ -19,8 +19,8 @@ class Gaia < Formula
       end
     end
     on_arm do
-      url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.0/gaia_v0.8.0_darwin_arm64.tar.gz"
-      sha256 "9e19faf21f81450939ca8f9dffea60b4d16c72568e39de9cd230c4d376a73b5a"
+      url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.1/gaia_v0.8.1_darwin_arm64.tar.gz"
+      sha256 "776b476465f4cd411b30970ae44f393f16c6967704e9ed33c45f3ace8da28f7c"
 
       def install
         bin.install "gaia"
@@ -32,8 +32,8 @@ class Gaia < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.0/gaia_v0.8.0_linux_x86_64.tar.gz"
-        sha256 "5fe376dfa9b0a2f96360e02cda77fb63423bd5ff4fbe0b16348e5f1e911eff70"
+        url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.1/gaia_v0.8.1_linux_x86_64.tar.gz"
+        sha256 "249b2c45ce6205a89300386b4d8380c019fc5e0fec6214c5d8eebf9a1c7de010"
 
         def install
           bin.install "gaia"
@@ -43,8 +43,8 @@ class Gaia < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.0/gaia_v0.8.0_linux_arm64.tar.gz"
-        sha256 "9c9edc428e916777d944a8ad7521dc76e3b02c4a01827e1a355964f2797f9339"
+        url "https://github.com/stewartbrothers/gaia/releases/download/v0.8.1/gaia_v0.8.1_linux_arm64.tar.gz"
+        sha256 "df095bcc62a8df4121758f317c54b4c9358fa1ac4acd8c250fb99be70771348f"
 
         def install
           bin.install "gaia"
